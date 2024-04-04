@@ -3,8 +3,6 @@ public class Kata
 {
   public static int[] GenerateRange(int min, int max, int step)
   {
-      
-    
     List<int> listname = new List<int>();
       
     for(int i = min; i <= max; i += step)
@@ -12,10 +10,6 @@ public class Kata
       listname.Add(i);
     }
     
-    return listname.ToArray();
-    
-      
-        
-        
+    return listname.ToArray();        
   }
 }
