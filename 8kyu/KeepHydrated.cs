@@ -8,7 +8,5 @@ public class Kata
     int Result = (int)Math.Floor(drink);
     return Result;
   }
-    
-  
-  
+     
 }
