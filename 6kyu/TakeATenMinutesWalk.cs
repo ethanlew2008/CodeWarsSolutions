@@ -18,10 +18,6 @@ public class Kata
     
       int time = norths + souths + easts + wests + horizontal + vertical;
       if (time == 10){return true;}
-      else {return false;}
-    
-      
-    
-      
+      else {return false;}      
   }
 }
